@@ -1,0 +1,111 @@
+.big{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    height: 650px;
+    background-color: rgb(47, 47, 133);
+    padding: 20px;
+    box-sizing: border-box;
+  }
+.small{
+    height:350px;
+    width:260px;
+    color:white ;
+    background-color:rgb(47, 47, 133)  ;
+    
+    border: blue 2px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    
+    
+
+}
+.main{
+    background-color: rgb(16, 16, 49);
+    height:200px;
+    width:260px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-top: 20px;
+    padding:5px 5px;
+}
+#calculator {
+    text-align: center;
+  }
+
+  button {
+    height:30px;
+    padding: 10px 20px;
+    border:10px black;
+    font-size: 16px;
+    margin: 2px;
+    background-color: rgb(235, 243, 243);
+    box-sizing: border-box;
+    border-radius:5px ;
+    -webkit-border-radius:5px ;
+    -moz-border-radius:5px ;
+    -ms-border-radius:5px ;
+    -o-border-radius:5px ;
+    
+}
+   .output-screen
+{
+    height:20px;
+    width:225px;
+    background-color: rgb(16, 16, 49) ;
+    padding:20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-top:64px;
+    color:white;
+    text-align: right;
+    font-size: 20px;
+  }
+    
+
+.reset{
+    width:110px;
+    margin:5pxpx;
+    background-color: rgb(137, 137, 184);
+    color:white;
+}
+.equal{
+    width:130px;
+    background-color:rgb(221, 71, 71);
+    color:white;
+}
+
+.plus{
+    width:70px;
+}
+.minus{
+    width:70px;
+}
+.multi{
+    width:70px;
+}
+.dot{
+    width:50px;
+}
+.devide{
+    width:50px;
+}
+.del{
+    background-color: rgb(137, 137, 184);
+    color:white;
+}
+
+  
