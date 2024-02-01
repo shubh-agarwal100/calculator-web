@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" type="text/css" href="cal.css" />
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shubh calculator </title>
+    
+</head>
+<body>
+    <div class="big">
+       
+       
+        <div class="small">
+            
+            
+            <div class="output-screen" id="output">0</div>
+        <div class="main">
+               
+        <div id="calculator">
+    <button onclick="appendToOutput('7')">7</button>
+    <button onclick="appendToOutput('8')">8</button>
+    <button onclick="appendToOutput('9')">9</button>
+    <button class="del" onclick="clearLastInput()">DEL</button>
+    <br>
+    <button onclick="appendToOutput('4')">4</button>
+    <button onclick="appendToOutput('5')">5</button>
+    <button onclick="appendToOutput('6')">6</button>
+    <button class="plus" onclick="appendToOutput('+')">+</button>
+    <br>
+    <button  onclick="appendToOutput('1')">1</button>
+    <button onclick="appendToOutput('2')">2</button>
+    <button onclick="appendToOutput('3')">3</button>
+    <button class="minus" onclick="appendToOutput('-')">-</button>
+    <br>
+    <button class="dot" onclick="appendToOutput('.')">.</button>
+    <button onclick="appendToOutput('0')">0</button>
+    <button class="devide" onclick="appendToOutput('/')">/</button>
+    <button class="multi" onclick="appendToOutput('*')">*</button>
+    <br>
+    <button class="reset" onclick="clearOutput()" >RESET</button>
+    <button class="equal"onclick="calculate()" >=</button>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <script src="cal.js"></script>
+</body>
+</html>
